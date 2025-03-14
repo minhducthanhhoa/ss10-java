@@ -13,6 +13,11 @@ public class Developer extends Employee {
     }
 
     @Override
+    public double getSalary() {
+        return super.getSalary();
+    }
+
+    @Override
     public String toString() {
         return super.toString() + ", Ngôn ngữ lập trình: " + programmingLanguage;
     }

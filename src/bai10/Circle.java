@@ -1,7 +1,5 @@
 package bai10;
 
-import java.awt.*;
-
 public class Circle extends Shape {
     private double radius;
 

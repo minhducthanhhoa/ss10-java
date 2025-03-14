@@ -4,6 +4,10 @@ public class Animals {
     protected String name;
     protected int age;
 
+    public Animals() {
+
+    }
+
     public Animals(String name, int age) {
         if (name == null || name.isEmpty()) {
             System.err.println("Tên không được để trống.");

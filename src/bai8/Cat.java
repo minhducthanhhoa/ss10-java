@@ -3,11 +3,11 @@ package bai8;
 public class Cat extends Animals{
     private String furColor;
 
+    public Cat() {
+    }
+
     public Cat(String name, int age, String furColor) {
         super(name, age);
-        if (furColor == null || furColor.isEmpty()) {
-            System.err.println("Màu lông không được để trống.");
-        }
         this.furColor = furColor;
     }
 

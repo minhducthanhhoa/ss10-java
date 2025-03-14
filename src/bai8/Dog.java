@@ -3,15 +3,19 @@ package bai8;
 public class Dog extends Animals{
     private String breed;
 
+    public Dog(){
+
+    }
+
     // Constructor
     public Dog(String name, int age, String breed) {
         super(name, age);
-        if (breed == null || breed.isEmpty()) {
-            System.err.println("Giống chó không được để trống.");
-        }
         this.breed = breed;
     }
 
+    public String getBreed() {
+        return breed;
+    }
     @Override
     public void displayInfo() {
         super.displayInfo();
